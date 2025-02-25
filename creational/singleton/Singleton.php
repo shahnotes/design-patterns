@@ -9,7 +9,7 @@ class Singleton
         $this->init();
     }
 
-    public function __clone()
+    private function __clone()
     {
 
     }
